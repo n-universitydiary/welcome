@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+body{
+    font-family: 'Caveat', cursive;
+    font-size: 5ch;
+    margin-left: 23ch;
+    background-image: linear-gradient(120deg, rgb(224, 195, 252) 0%, rgb(142, 197, 252) 100%);
+}
+
+
+p{
+    font-family:Kiwi Maru;
+}
+h1{
+  font-family:Kiwi Maru;
+    font-size: 3ch;
+    margin-left: 12ch;
+    margin-right:20ch;
+    margin-top:10ch;
+    color:black;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px black;/*上線*/
+  border-bottom: solid 3px black;/*下線*/
+}
+#日記一覧{
+    
+    font-family:Kiwi Maru;
+    font-size: 1ch;
+    margin-left: 2ch;
+    margin-top: 5ch;
+  
+}
+#日記一覧{
+  padding: 1cm, 1ch;
+  margin: 10cm;
+  font-weight: bold;
+  border: solid 3px #000000;
+  font-family:Kiwi Maru;
+  font-size: 1ch;
+  margin-left: 2ch;
+  margin-right: 41ch;
+  margin-top: 9ch;
+}
+
+
+#日記一覧
+{
+    animation: fadeIn 3s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+  }
+   
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#About_Me{
+    padding: 1cm, 1ch;
+    margin: 10cm;
+    font-weight: bold;
+    border: solid 3px #000000;
+    font-family:Kiwi Maru;
+    font-size: 1ch;
+    margin-left: 2ch;
+    margin-right: 41ch;
+    margin-top: 9ch;
+    
+}
+#About_Me{
+        animation: fadeIn 3s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+      }
+       
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+}
+
+h1{
+    font-family:Kiwi Maru;
+    font-size: 2ch;
+    margin-left: 2ch;
+    margin-top:0.1ch
+}
+
+
+#はじめまして{
+  font-family:Kiwi Maru;
+    font-size: 1ch;
+    margin-left: 2ch;
+    margin-top:0.1ch
+}
